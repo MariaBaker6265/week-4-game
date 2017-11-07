@@ -1,0 +1,118 @@
+.container-fluid {
+	background-image: url(../images/diamonds2.png);
+	font-size: 18px;
+	line-height: 34px;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #00000c;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#headline {
+	font-size: 60px;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	font-style: italic;
+	background: rgba(180, 180, 255, 0.65);
+	font-weight: bolder;
+	color: #131aef;
+	margin: 0;
+	padding-left: 55px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	height: 60px;
+}
+
+.text {
+	font-size: 24px;
+	font-family: 'Lato';
+    font-weight: bolder;
+}
+
+
+.col-xs-4 {
+	background: rgba(220, 220, 220, 0.65);
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+.col-xs-2 {
+	background: rgba(220, 220, 220, 0.65);
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+
+#game-rules {
+	font-family: 'Lato';
+    font-weight: bolder;
+}
+
+#win {
+	margin-left: 20px;
+	padding-left: 100px;
+}
+
+
+#blue-gem{
+	background-image: url(../images/BlueGem.png);
+	line-height: 130px;
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	margin-left: 5px;
+	width: 160px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	padding-right: 3px;
+	border-width: 5px;
+	border-color: #131aef;
+}
+
+
+#purple-gem{
+	background-image: url(../images/PurpleGem.png);
+	line-height: 137px;
+	background-size: 155px 155px;
+	background-repeat: no-repeat;
+	width: 160px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-right: 5px;
+	padding-top: 5px;
+	border-width: 5px;
+	border-color: #520d9b;
+}
+
+
+#red-gem{
+	background-image: url(../images/RedGem.png);
+	line-height: 130px;
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	width: 160px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	padding-right: 3px;
+	border-width: 5px;
+	border-color: #db1a0d;
+}
+
+
+#yellow-gem{
+	background-image: url(../images/YellowGem.png);
+	line-height: 130px;
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	width: 160px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	padding-right: 3px;
+	border-width: 5px;
+	border-color: #fce328;
+}
+#lscore {
+	line-height: 96px;
+}

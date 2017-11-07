@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Game</title>
+	<!-- Link to css reset stylesheet.-->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Link to css stylesheet.-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Link to the jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!--Link to google fonts.-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!--Set the charcter set to UTF-8-->
+    <meta charset="UTF-8">
+    <!--Viewport-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+ <!-- Create a main container div.-->
+<div class="container-fluid">
+<!--Create the rows and columns of the visual layout. --> 
+<nav id="headline"> Welcome to Crystal Collector!</nav>
+	<div class="row">
+		<div class="col-xs-4" id="game-rules">
+			<!--Ordered list of game instructions.-->
+			<ol>
+				<li>Match the random number given.</li>
+				<li>Each of the four color crystals is assigned a random value that is hidden until clicked. 
+				<li>When a crystal is clicked, its value is revealed and added to the total score.</li>
+				<li>Match the value without going over to win.</li>
+			</0l> 
+			<div class="col-xs-8"></div>
+		</div>
+   </div>
+
+<!--Create row/column divs for displaying the match value and to track wins/losses.-->
+<div class="row">
+	
+		 	<div class="col-xs-2 score text">Match</div>
+		 	<div class="col-xs-2 score text">Current Score</div>
+	
+</div>	 
+<!--Create user buttons.-->
+ <div class="row">   
+	 <button class="btn btn-primary btn-lg" id="blue-gem">Fancy Button</button>  
+	 <button class="btn btn-primary btn-lg" id="purple-gem">Fancy Button</button>
+	 <button class="btn btn-primary btn-lg" id="red-gem">Fancy Button</button>
+	 <button class="btn btn-primary btn-lg" id="yellow-gem">Fancy Button</button>
+	</div>  
+ 
+ <div class="row">
+  	<div class="col-xs-4 score text">Your total score is:</div>  
+  </div>
+  <div class="row">
+ 	<div class="col-xs-4 score text" id="lscore">Score</div>   
+  </div>
+ </div>	
+<!--Javascript/jQuery-->  
+ <script type="text/javascript">
+
+document.onkeyup = function (event) {
+
+var numMatch
+var userScore
+var userWin
+var userLose
+var blueGem
+var redGem
+var purpleGem
+var yellowGem
+
+
+
+
+
+}
+
+
+</script>
+</body>
+</html>
