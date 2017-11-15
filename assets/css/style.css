@@ -83,7 +83,7 @@
 
 
 #blue-gem{
-	background-image: url(../images/BlueGem.png);
+	background-image: url(../images/bluegem.png);
 	height: 160px;
 	background-size: 150px 150px;
 	background-repeat: no-repeat;
@@ -98,7 +98,7 @@
 
 
 #purple-gem{
-	background-image: url(../images/PurpleGem.png);
+	background-image: url(../images/purplegem.png);
 	height: 160px;
 	background-size: 155px 155px;
 	background-repeat: no-repeat;
@@ -113,7 +113,7 @@
 
 
 #red-gem{
-	background-image: url(../images/RedGem.png);
+	background-image: url(../images/redgem.png);
 	height: 160px;
 	background-size: 150px 150px;
 	background-repeat: no-repeat;
@@ -127,7 +127,7 @@
 
 
 #yellow-gem{
-	background-image: url(../images/YellowGem.png);
+	background-image: url(../images/yellowgem.png);
 	height: 160px;
 	background-size: 151px 151px;
 	background-repeat: no-repeat;
