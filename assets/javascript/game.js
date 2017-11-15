@@ -60,7 +60,8 @@ console.log(yellowGem);
 			var winn1 = ++winCounter;
 		}
 		//Display the number of wins in the win counter.
-			$("#wins").text("Wins" + " " + winCounter);		
+			$("#wins").text("Wins" + " " + winCounter);
+					
 		}
 		
 		//If the user score is greater than the number to match the user loses.
@@ -74,6 +75,7 @@ console.log(yellowGem);
 			}
 			//Display the number of losses in the loss counter.
 			$("#losses").text("Losses" + " " + lossCounter);
+			
 		}
 
 	})
